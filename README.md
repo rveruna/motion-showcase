@@ -4,6 +4,8 @@
 
 **[Live demo](https://rveruna.github.io/motion-showcase/)**
 
+[![A card is dragged and springs back with an overshoot, a list slides in row by row, a circle and tick draw themselves, and cards fade up while scrolling](docs/demo.gif)](https://rveruna.github.io/motion-showcase/)
+
 Four small interface animations in React and TypeScript, built without an animation library.
 
 | Demo | How it works |
