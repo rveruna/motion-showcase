@@ -4,7 +4,7 @@ const CARDS = [
   { title: 'Observe once', body: 'An IntersectionObserver adds a class the first time a card enters view.' },
   {
     title: 'Then let go',
-    body: 'It unobserves straight after, so scrolling costs nothing once cards are shown.',
+    body: 'It disconnects straight after, so scrolling costs nothing once cards are shown.',
   },
   {
     title: 'No layout jank',

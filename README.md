@@ -13,7 +13,7 @@ Four small interface animations in React and TypeScript, built without an animat
 | Spring drag | Pointer events, plus a damped spring (`src/hooks/spring.ts`) integrated every frame. Release velocity carries into the spring, so it overshoots. |
 | Staggered entrance | One CSS keyframe with a per-row `animation-delay`. React only re-keys the list to replay it. |
 | Path drawing | SVG `stroke-dashoffset` with `pathLength="1"`, so nothing is measured in JavaScript. |
-| Scroll reveal | `IntersectionObserver` that unobserves after the first reveal. Only `opacity` and `transform` animate. |
+| Scroll reveal | `IntersectionObserver` that disconnects after the first reveal. Only `opacity` and `transform` animate. |
 
 ## Decisions worth a look
 
